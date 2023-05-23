@@ -1,32 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .MyTask {
   height: 822px;
-}
-.MyTask h1 {
-  font-family: "Syncopate";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 33px;
-  color: #F4BDBD;
-  width: 199.13px;
-  height: 31.13px;
-}
-.MyTask .one {
-  width: 301.06px;
-  height: 147.37px;
-  background: rgba(175, 37, 37, 0.63);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transform: matrix(0.92, -0.4, 0.46, 0.89, 0, 0);
-}
-.MyTask .one h1 {
-  font-family: "Sen";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 182px;
-  line-height: 211px;
-  color: #1E0202;
-  border: 2px solid rgba(145, 7, 7, 0.38);
-}
-.MyTask .one p {
-  color: #000000;
+  background-image: url(/img/MyTasck-bg.png);
+  background-repeat: no-repeat;
 }

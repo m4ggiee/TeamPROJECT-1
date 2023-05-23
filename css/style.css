@@ -2,43 +2,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@200;300;500&family=Italiana&family=Merriweather&family=Montserrat:wght@700&family=Roboto:wght@100;300&family=Rubik:wght@300&family=Sen&display=swap");
+@import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .MyTask {
   height: 822px;
   background-image: url(/img/MyTasck-bg.png);
-  background-size: cover;
   background-repeat: no-repeat;
 }
-.MyTask h1 {
+.MyTask .mt {
+  color: #E4CFCF;
+  text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 33px;
-  font-family: "Syncopate";
-  color: #E4CFCF;
-  text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
+  font-size: 33px;
+  line-height: 34px;
+  font-family: Syncopate;
   text-align: center;
-  padding-top: 28px;
-  margin-bottom: 25px;
-}
-.MyTask .one {
-  width: 301.06px;
-  height: 147.37px;
-  background: linear-gradient(165.55deg, #DAAFAF 16.79%, #E60000 52.79%);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transform: matrix(0.92, -0.4, 0.46, 0.89, 0, 0);
 }
 .MyTask .one h1 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 182px;
+  font-size: 128px;
   line-height: 211px;
-  font-family: "Sen";
+  font-family: "Trebuchet MS", sans-serif;
   color: #1E0202;
-  border: 2px solid rgba(145, 7, 7, 0.38);
+  text-shadow: 2px 1px 0px rgba(144, 7, 7, 0.38);
+}
+.MyTask .one .one-p {
+  width: 291.67px;
+  height: 126.55px;
+  background: linear-gradient(165.55deg, #DAAFAF 16.79%, #E60000 52.79%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .MyTask .one p {
+  width: 180.02px;
+  height: 32.07px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -47,20 +51,29 @@
   color: #000000;
 }
 .MyTask .two h1 {
-  font-family: "Hind Siliguri";
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 217px;
+  font-family: Sen;
   color: #F0C9C9;
-  border: 3px solid rgba(172, 137, 137, 0.34);
-  text-shadow: 2px 0px 0px rgba(172, 137, 137, 0.34);
+  text-shadow: 2px 1px 0px rgba(172, 137, 137, 0.34);
 }
-.MyTask .two h3 {
-  color: #FFF9F9;
+.MyTask .two .two-p {
+  width: 303.73px;
+  height: 212.25px;
+  background: linear-gradient(165.31deg, #1F0101 47.88%, rgba(136, 101, 101, 0.26) 90.86%);
+}
+.MyTask .two .two-p h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
+  color: #FFF9F9;
 }
-.MyTask .two p {
+.MyTask .two .two-p p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -69,12 +82,33 @@
   color: #FFFFFF;
 }
 .MyTask .three h1 {
-  font-family: "Sen";
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 180px;
   line-height: 217px;
+  font-family: Sen;
   color: #FB0909;
-  border: 3px solid rgba(81, 3, 3, 0.44);
+  text-shadow: 2px 1px 0px rgba(81, 3, 3, 0.4392156863);
+}
+.MyTask .three .three-p {
+  width: 275.57px;
+  height: 193.38px;
+  background: linear-gradient(180.08deg, #F0C9C9 37.32%, #430A0A 99.93%);
+}
+.MyTask .three .three-p h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.MyTask .three .three-p p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 9px;
+  color: #000000;
 }
