@@ -1,84 +1,3 @@
-// .MyTask{
-//     height: 822px;
-//     background-image: url(/img/MyTasck-bg.png);
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     h1{
-//         @include textStyle(700, 32px, 33px);
-//         font-family: 'Syncopate';
-
-//         color: #E4CFCF;
-//         text-shadow: 2px 1px 0px rgba(226,13,13,0.5);
-
-//         text-align: center;
-
-//         padding-top: 28px;
-//         margin-bottom: 25px;
-
-        
-               
-//     }
-
-//     .one{
-//         width: 301.06px;
-//         height: 147.37px;      
-        
-//         background: linear-gradient(165.55deg, #DAAFAF 16.79%, #E60000 52.79%);
-//         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-//         // transform: matrix(0.92, -0.4, 0.46, 0.89, 0, 0);      
-
-//         h1{
-//             @include textStyle(700, 182px, 211px);
-//             font-family: 'Sen';
-            
-//             color: #1E0202;
-            
-//             text-shadow: 2px solid rgba(145, 7, 7, 0.38);          
-//         }
-
-//         p{
-//             @include textStyle(700, 15px, 18px);
-//             color: #000000;
-//         }
-//     }
-
-//     .two{
-//         width: 303.73px;
-//         height: 212.25px;
-//         background: linear-gradient(165.31deg, #1F0101 47.88%, rgba(136, 101, 101, 0.26) 90.86%);
-
-//         h1{
-//             font-family: 'Hind Siliguri';
-//             // @include textStyle(700, 180px, 217px);
-//             color: #F0C9C9;
-           
-
-//             border: 3px solid rgba(172, 137, 137, 0.34);  
-//             // text-shadow: 2px 0px 0px rgba(172,137,137,0.34);        
-//         }
-        
-//         h3{
-//             color: #FFF9F9;
-//             @include textStyle(700, 15px, 18px);
-//         }
-
-//         p{
-//             @include textStyle(400, 12px, 14px);
-//             color: #FFFFFF;
-
-//         }
-//     }
-
-//     .three{
-//         h1{
-//             font-family: 'Sen';
-//             @include textStyle(700, 180px, 217px); 
-//             color: #FB0909;
-
-//             text-shadow: 3px solid rgba(81, 3, 3, 0.44);           
-//         }
-//     }
-// }
 *{
     margin: 0;
     padding: 0;
@@ -89,37 +8,49 @@
     background-repeat: no-repeat;
 
 
-    .mt{
+    .h1{
         color: #E4CFCF;
         text-shadow: 2px 1px 0px rgba(226,13,13,0.5);
-        @include textStyle (700, 33px, 34px);
+        @include textStyle(700, 33px, 34px);
         font-family: Syncopate ;
-        text-align: center;      
+
+        text-align: center;    
+        padding-top: 20px;  
+       
     }
 
     .one{
+        position: relative;
+       
+        
          
-
         h1{
-            @include textStyle (700, 128px, 211px);
+            @include textStyle(700, 128px, 211px);
             
             font-family: 'Trebuchet MS', sans-serif;
             color: #1E0202;
             text-shadow: 2px 1px 0px rgba(144, 7, 7, 0.38);
+            position: absolute;
+            top: 40px;
+            left: 20px;
+            z-index: 2;
         }
 
-        .one-p{
-            width: 291.67px;
-            height: 126.55px; 
-            background: linear-gradient(165.55deg, #DAAFAF 16.79%, #E60000 52.79%);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);       
+        img{
+            // position: absolute;
+            // top: 1px;
+            // right: 41px;
+            padding-top: 1px;
         }
 
         p{
             width: 180.02px;
             height: 32.07px;          
-            @include textStyle (700, 15px, 18px); 
+            @include textStyle(700, 15px, 18px); 
             color: #000000;
+            position: absolute;
+            top: 92px ;
+            left: 96px ;
 
         }
 
@@ -127,26 +58,38 @@
 
     .two{
         h1{
-            @include textStyle (700, 180px, 217px);
+            @include textStyle(700, 180px, 217px);
             
             font-family: Sen;
             color:#F0C9C9;
 
             text-shadow: 2px 1px 0px rgb(172, 137, 137, 0.34);
+            position: absolute;
+            left: 22px;
+            top: 319px;
+            z-index: 2;
         }
         .two-p{
-            width: 303.73px;
-            height: 212.25px;  
-            background: linear-gradient(165.31deg, #1F0101 47.88%, rgba(136, 101, 101, 0.26) 90.86%); 
+        
+           
+            position: absolute;
+            top: 241px;
+            left: 4px;
 
             h3{
-                @include textStyle (700, 15px, 18px); 
+                @include textStyle(700, 15px, 18px); 
                 color: #FFF9F9; 
+                position: absolute;
+                top: 55px;
+                left: 118px;
             }
     
             p{
-                @include textStyle (400, 12px, 14px);
+                @include textStyle(400, 12px, 14px);
                 color: #FFFFFF;
+                position: absolute;
+                top: 89px;
+                left: 118px;
     
             }
         }   
@@ -155,26 +98,39 @@
     }
     .three{
         h1{
-            @include textStyle (700, 180px, 217px);
+            @include textStyle(700, 180px, 217px);
             
             font-family: Sen;
             color:#FB0909;
+            
 
-            text-shadow: 2px 1px 0px #51030370;
+            text-shadow: 4px 0px 0px #51030370;
+            position: absolute;
+            top: 502px;
+            left: 33px;
+            z-index: 2;
 
         }
         .three-p{
-            width: 275.57px;
-            height: 193.38px;  
-            background: linear-gradient(180.08deg, #F0C9C9 37.32%, #430A0A 99.93%);
+           
+            position: absolute;
+            top: 406px;
+            left: 27px;
 
             h3{
-                @include textStyle (700, 12px, 14px);
+                @include textStyle(700, 12px, 14px);
                 color: #000000;
+                position: absolute;
+                top: 172px;
+                left: 110px;             
             }
             p{
-                @include textStyle (400, 8px, 9px);
+                @include textStyle(400, 8px, 9px);
                 color: #000000;
+                position: absolute;
+                top: 103px;
+                left: 140px;  
+                text-align: right;             
             }
     
         }
@@ -183,4 +139,112 @@
     }
 
 }
+
+.Reviews{
+    height: 1186px;
+    background-image: url(/img/фон2\ 1.png);
+    background-repeat: no-repeat;
+
+    h1{
+        color: #F4BDBD;
+        text-shadow: 2px 1px 0px rgba(226,13,13,0.5);
+        @include textStyle(700, 33px, 34px);
+        font-family: Syncopate ;
+
+        text-align: center;    
+        padding-top: 20px;  
+    }
+
+    .card1{
+        position: relative;
+        top: -54px;
+
+        div{
+            img{
+                position: absolute;
+                top: 357px;
+                left: 39px
+            }
+            h3{
+                position: relative;
+                z-index: 2;
+                @include textStyle(700, 18px, 21px);
+                font-family: 'Roboto';
+                top: -55px;
+                left: 163px;
+            }
+            p{
+                position: relative;
+                z-index: 2;
+                @include textStyle(400, 13px, 15px);
+                font-family: 'Roboto';
+                color: #000000;
+                top: -35px;
+                left: 120px;
+            }
+            hr{
+                position: relative;
+                z-index: 2;
+                border: 2px solid #000000;
+
+                width: 190.14px;
+                height: 0px;
+                top: -48px;
+                left: 97.98px;             
+            }
+        };
+
+    }
+
+    .card2{
+        position: relative;
+        top: -50px; 
+       
+
+        div{
+            img{
+                position: absolute;
+                top: 347px;
+                right: 15px;  
+            }
+            h3{
+                position: relative;
+                top: -50px;
+                left: 139px;
+                z-index: 2;
+                @include textStyle(700, 18px, 21px);
+                font-family: 'Roboto';
+                
+            }
+            hr{
+                position: relative;
+                z-index: 2;
+                border: 2px solid #000000;
+
+                width: 190.14px;
+                height: 0px;
+                top: -48px;
+                left: 97.98px;             
+            }
+            p{
+                position: relative;
+                z-index: 2;
+                @include textStyle(400, 13px, 15px);
+                font-family: 'Roboto';
+                color: #000000;
+                top: -40px;
+                left: 102px;
+            }
+        }
+    }
+
+    @media (max-width:600px) {
+        .card3{
+            display: none;
+        }
+        
+    }
+
+}
+
 

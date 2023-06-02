@@ -1,8 +1,64 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@200;300;500&family=Italiana&family=Merriweather&family=Montserrat:wght@700&family=Roboto:wght@100;300&family=Rubik:wght@300&family=Sen&display=swap");
 @import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +69,7 @@
   background-image: url(/img/MyTasck-bg.png);
   background-repeat: no-repeat;
 }
-.MyTask .mt {
+.MyTask .h1 {
   color: #E4CFCF;
   text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
   font-family: "Inter";
@@ -23,6 +79,10 @@
   line-height: 34px;
   font-family: Syncopate;
   text-align: center;
+  padding-top: 20px;
+}
+.MyTask .one {
+  position: relative;
 }
 .MyTask .one h1 {
   font-family: "Inter";
@@ -33,12 +93,13 @@
   font-family: "Trebuchet MS", sans-serif;
   color: #1E0202;
   text-shadow: 2px 1px 0px rgba(144, 7, 7, 0.38);
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  z-index: 2;
 }
-.MyTask .one .one-p {
-  width: 291.67px;
-  height: 126.55px;
-  background: linear-gradient(165.55deg, #DAAFAF 16.79%, #E60000 52.79%);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.MyTask .one img {
+  padding-top: 1px;
 }
 .MyTask .one p {
   width: 180.02px;
@@ -49,6 +110,9 @@
   font-size: 15px;
   line-height: 18px;
   color: #000000;
+  position: absolute;
+  top: 92px;
+  left: 96px;
 }
 .MyTask .two h1 {
   font-family: "Inter";
@@ -59,11 +123,15 @@
   font-family: Sen;
   color: #F0C9C9;
   text-shadow: 2px 1px 0px rgba(172, 137, 137, 0.34);
+  position: absolute;
+  left: 22px;
+  top: 319px;
+  z-index: 2;
 }
 .MyTask .two .two-p {
-  width: 303.73px;
-  height: 212.25px;
-  background: linear-gradient(165.31deg, #1F0101 47.88%, rgba(136, 101, 101, 0.26) 90.86%);
+  position: absolute;
+  top: 241px;
+  left: 4px;
 }
 .MyTask .two .two-p h3 {
   font-family: "Inter";
@@ -72,6 +140,9 @@
   font-size: 15px;
   line-height: 18px;
   color: #FFF9F9;
+  position: absolute;
+  top: 55px;
+  left: 118px;
 }
 .MyTask .two .two-p p {
   font-family: "Inter";
@@ -80,6 +151,9 @@
   font-size: 12px;
   line-height: 14px;
   color: #FFFFFF;
+  position: absolute;
+  top: 89px;
+  left: 118px;
 }
 .MyTask .three h1 {
   font-family: "Inter";
@@ -89,12 +163,16 @@
   line-height: 217px;
   font-family: Sen;
   color: #FB0909;
-  text-shadow: 2px 1px 0px rgba(81, 3, 3, 0.4392156863);
+  text-shadow: 4px 0px 0px rgba(81, 3, 3, 0.4392156863);
+  position: absolute;
+  top: 502px;
+  left: 33px;
+  z-index: 2;
 }
 .MyTask .three .three-p {
-  width: 275.57px;
-  height: 193.38px;
-  background: linear-gradient(180.08deg, #F0C9C9 37.32%, #430A0A 99.93%);
+  position: absolute;
+  top: 406px;
+  left: 27px;
 }
 .MyTask .three .three-p h3 {
   font-family: "Inter";
@@ -103,6 +181,9 @@
   font-size: 12px;
   line-height: 14px;
   color: #000000;
+  position: absolute;
+  top: 172px;
+  left: 110px;
 }
 .MyTask .three .three-p p {
   font-family: "Inter";
@@ -111,4 +192,409 @@
   font-size: 8px;
   line-height: 9px;
   color: #000000;
+  position: absolute;
+  top: 103px;
+  left: 140px;
+  text-align: right;
+}
+
+.Reviews {
+  height: 1186px;
+  background-image: url(/img/фон2\ 1.png);
+  background-repeat: no-repeat;
+}
+.Reviews h1 {
+  color: #F4BDBD;
+  text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 34px;
+  font-family: Syncopate;
+  text-align: center;
+  padding-top: 20px;
+}
+.Reviews .card1 {
+  position: relative;
+  top: -54px;
+}
+.Reviews .card1 div img {
+  position: absolute;
+  top: 357px;
+  left: 39px;
+}
+.Reviews .card1 div h3 {
+  position: relative;
+  z-index: 2;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: "Roboto";
+  top: -55px;
+  left: 163px;
+}
+.Reviews .card1 div p {
+  position: relative;
+  z-index: 2;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  font-family: "Roboto";
+  color: #000000;
+  top: -35px;
+  left: 120px;
+}
+.Reviews .card1 div hr {
+  position: relative;
+  z-index: 2;
+  border: 2px solid #000000;
+  width: 190.14px;
+  height: 0px;
+  top: -48px;
+  left: 97.98px;
+}
+.Reviews .card2 {
+  position: relative;
+  top: -50px;
+}
+.Reviews .card2 div img {
+  position: absolute;
+  top: 347px;
+  right: 15px;
+}
+.Reviews .card2 div h3 {
+  position: relative;
+  top: -50px;
+  left: 139px;
+  z-index: 2;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: "Roboto";
+}
+.Reviews .card2 div hr {
+  position: relative;
+  z-index: 2;
+  border: 2px solid #000000;
+  width: 190.14px;
+  height: 0px;
+  top: -48px;
+  left: 97.98px;
+}
+.Reviews .card2 div p {
+  position: relative;
+  z-index: 2;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  font-family: "Roboto";
+  color: #000000;
+  top: -40px;
+  left: 102px;
+}
+@media (max-width: 600px) {
+  .Reviews .card3 {
+    display: none;
+  }
+}
+
+.MyTask {
+  height: 945.13px;
+  background-image: url(/img/Rectangle\ 35.png);
+  background-repeat: no-repeat;
+}
+.MyTask .h1 {
+  padding-left: 76px;
+  color: #E4CFCF;
+  text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 59px;
+  font-family: "Syncopate";
+  width: 653px;
+  height: 60px;
+}
+.MyTask .one {
+  position: absolute;
+  top: 86px;
+  left: 128px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.MyTask {
+  height: 822px;
+  background-image: url(/img/MyTasck-bg.png);
+  background-repeat: no-repeat;
+}
+.MyTask .h1 {
+  color: #E4CFCF;
+  text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 34px;
+  font-family: Syncopate;
+  text-align: center;
+  padding-top: 20px;
+}
+.MyTask .one {
+  position: relative;
+}
+.MyTask .one h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 211px;
+  font-family: "Trebuchet MS", sans-serif;
+  color: #1E0202;
+  text-shadow: 2px 1px 0px rgba(144, 7, 7, 0.38);
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  z-index: 2;
+}
+.MyTask .one img {
+  padding-top: 1px;
+}
+.MyTask .one p {
+  width: 180.02px;
+  height: 32.07px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  position: absolute;
+  top: 92px;
+  left: 96px;
+}
+.MyTask .two h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 217px;
+  font-family: Sen;
+  color: #F0C9C9;
+  text-shadow: 2px 1px 0px rgba(172, 137, 137, 0.34);
+  position: absolute;
+  left: 22px;
+  top: 319px;
+  z-index: 2;
+}
+.MyTask .two .two-p {
+  position: absolute;
+  top: 241px;
+  left: 4px;
+}
+.MyTask .two .two-p h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFF9F9;
+  position: absolute;
+  top: 55px;
+  left: 118px;
+}
+.MyTask .two .two-p p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 89px;
+  left: 118px;
+}
+.MyTask .three h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 217px;
+  font-family: Sen;
+  color: #FB0909;
+  text-shadow: 4px 0px 0px rgba(81, 3, 3, 0.4392156863);
+  position: absolute;
+  top: 502px;
+  left: 33px;
+  z-index: 2;
+}
+.MyTask .three .three-p {
+  position: absolute;
+  top: 406px;
+  left: 27px;
+}
+.MyTask .three .three-p h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  position: absolute;
+  top: 172px;
+  left: 110px;
+}
+.MyTask .three .three-p p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 9px;
+  color: #000000;
+  position: absolute;
+  top: 103px;
+  left: 140px;
+  text-align: right;
+}
+
+.Reviews {
+  height: 1186px;
+  background-image: url(/img/фон2\ 1.png);
+  background-repeat: no-repeat;
+}
+.Reviews h1 {
+  color: #F4BDBD;
+  text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 34px;
+  font-family: Syncopate;
+  text-align: center;
+  padding-top: 20px;
+}
+.Reviews .card1 {
+  position: relative;
+  top: -54px;
+}
+.Reviews .card1 div img {
+  position: absolute;
+  top: 357px;
+  left: 39px;
+}
+.Reviews .card1 div h3 {
+  position: relative;
+  z-index: 2;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: "Roboto";
+  top: -55px;
+  left: 163px;
+}
+.Reviews .card1 div p {
+  position: relative;
+  z-index: 2;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  font-family: "Roboto";
+  color: #000000;
+  top: -35px;
+  left: 120px;
+}
+.Reviews .card1 div hr {
+  position: relative;
+  z-index: 2;
+  border: 2px solid #000000;
+  width: 190.14px;
+  height: 0px;
+  top: -48px;
+  left: 97.98px;
+}
+.Reviews .card2 {
+  position: relative;
+  top: -50px;
+}
+.Reviews .card2 div img {
+  position: absolute;
+  top: 347px;
+  right: 15px;
+}
+.Reviews .card2 div h3 {
+  position: relative;
+  top: -50px;
+  left: 139px;
+  z-index: 2;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: "Roboto";
+}
+.Reviews .card2 div hr {
+  position: relative;
+  z-index: 2;
+  border: 2px solid #000000;
+  width: 190.14px;
+  height: 0px;
+  top: -48px;
+  left: 97.98px;
+}
+.Reviews .card2 div p {
+  position: relative;
+  z-index: 2;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  font-family: "Roboto";
+  color: #000000;
+  top: -40px;
+  left: 102px;
+}
+@media (max-width: 600px) {
+  .Reviews .card3 {
+    display: none;
+  }
+}
+
+.MyTask {
+  height: 945.13px;
+  background-image: url(/img/Rectangle\ 35.png);
+  background-repeat: no-repeat;
+}
+.MyTask .h1 {
+  padding-left: 76px;
+  color: #E4CFCF;
+  text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 59px;
+  font-family: "Syncopate";
+  width: 653px;
+  height: 60px;
+}
+.MyTask .one {
+  position: absolute;
+  top: 86px;
+  left: 128px;
 }
