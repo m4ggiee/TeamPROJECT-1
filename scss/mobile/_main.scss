@@ -37,9 +37,6 @@
         }
 
         img{
-            // position: absolute;
-            // top: 1px;
-            // right: 41px;
             padding-top: 1px;
         }
 
@@ -57,6 +54,7 @@
     }
 
     .two{
+        
         h1{
             @include textStyle(700, 180px, 217px);
             
@@ -97,6 +95,7 @@
       
     }
     .three{
+        
         h1{
             @include textStyle(700, 180px, 217px);
             
@@ -135,6 +134,34 @@
     
         }
 
+        
+    }
+
+    @media (max-width:600px) {
+        .img1{
+            display: none;
+        }
+
+        .img2{
+            display: none;
+        }      
+
+
+        .img3{
+            display: none;
+        }
+
+        .heart{
+            display: none;   
+        }
+
+        .chating{
+            display: none;   
+        }
+
+        .notebook{
+            display: none;   
+        }
         
     }
 
@@ -192,7 +219,7 @@
                 top: -48px;
                 left: 97.98px;             
             }
-        };
+        }
 
     }
 
