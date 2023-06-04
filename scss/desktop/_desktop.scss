@@ -263,5 +263,69 @@
         }
     
     }
+
+    .ContactMe{
+        position: relative;
+        top: -584px;
+        left: 150px;
+          
+        background-image: url(/img/Group\ 2.png);
+        background-repeat: no-repeat;
+
+       div{
+             padding-top: 140px;
+             padding-left: 130px;
+           h1{
+               @include textStyle(700, 40px, 42px);
+               font-family: 'Syncopate';
+               width: 581.81px;
+               text-shadow: 2px solid rgba(73, 7, 7, 0.33);
+               padding-bottom: 0px;
+
+            } 
+            
+            hr{
+                width: 558.78px;
+                border: 4px solid #000000;
+
+            }
+
+            p{
+                @include textStyle(400, 15px, 18px);
+                font-family: 'Roboto';
+                width:445px;
+            }
+        
+       }
+
+       .button{
+         top: 210px;
+         left:791px;
+         background: #F4E2E2;
+         box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.25);
+         border-radius: 27px;
+         width: 196.27px;
+         height: 63.64px;              
+       }
+       .text{
+          @include textStyle(900, 19px, 22px);
+          font-family: 'Roboto';
+
+       }
+       .i{
+          top: 348px;
+          left: 100px;
+       }
+       .b{
+         top: 310px;
+         left: 124px;
+       }
+       .w{
+         top: 349px;
+         left: 215px;
+       }
+    
+
+    }
 }
 
