@@ -201,6 +201,7 @@
                 left: 163px;
             }
             p{
+                width: 190.14px;
                 position: relative;
                 z-index: 2;
                 @include textStyle(400, 13px, 15px);
@@ -254,6 +255,7 @@
                 left: 97.98px;             
             }
             p{
+                width: 185.29px;
                 position: relative;
                 z-index: 2;
                 @include textStyle(400, 13px, 15px);
@@ -270,6 +272,72 @@
             display: none;
         }
         
+    }
+
+}
+
+
+.ContactMe{
+    height: 703.06px;
+    background-image: url(/img/ContactMe-bg.png);
+    background-repeat: no-repeat;
+
+    div{
+        padding-top: 70px;
+        padding-left: 28px;
+        h1{
+            @include textStyle(700, 35px, 36px);
+            font-family: 'Syncopate';
+            color: #F3D5D5;
+            text-shadow: 2px solid rgba(73, 7, 7, 0.33);
+            width: 321px;
+            text-align: left;
+            padding-bottom: 15px;
+        }
+        hr{
+            width: 259px;
+            height: 0px;
+            border: 5px solid #000000;
+            
+           
+        }
+        p{
+            padding-top: 15px;
+            @include textStyle(400, 14px, 16px);
+            font-family: 'Roboto';
+            width: 259px;
+            color: #E8D6D6;
+        }       
+    }
+    .button{
+        background: #F4E2E2;
+        border-radius: 27px;
+        width: 194px;
+        height: 54px; 
+        border: 0; 
+        position: absolute;
+        top: 2542px;
+        left: 89px;
+    }
+    .text{
+        @include textStyle(900, 19px, 22px);
+        font-family: 'Roboto';
+        color: #FF0000;
+    }
+    .w{
+        position: absolute;
+        top: 2600px;
+        left: -10px;
+    }
+    .b{
+        position: absolute;
+        top: 2562px;
+        left: 12px;
+    }
+    .i{
+        position: absolute;
+        top: 2600px;
+        left: 104px;
     }
 
 }

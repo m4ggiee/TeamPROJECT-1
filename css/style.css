@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@200;300;500&family=Italiana&family=Merriweather&family=Montserrat:wght@700&family=Roboto:wght@100;300&family=Rubik:wght@300&family=Sen&display=swap");
 @import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
 @import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
@@ -480,6 +481,7 @@ table {
   left: 163px;
 }
 .Reviews .card1 div p {
+  width: 190.14px;
   position: relative;
   z-index: 2;
   font-family: "Inter";
@@ -532,6 +534,7 @@ table {
   left: 97.98px;
 }
 .Reviews .card2 div p {
+  width: 185.29px;
   position: relative;
   z-index: 2;
   font-family: "Inter";
@@ -548,6 +551,79 @@ table {
   .Reviews .card3 {
     display: none;
   }
+}
+
+.ContactMe {
+  height: 703.06px;
+  background-image: url(/img/ContactMe-bg.png);
+  background-repeat: no-repeat;
+}
+.ContactMe div {
+  padding-top: 70px;
+  padding-left: 28px;
+}
+.ContactMe div h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 36px;
+  font-family: "Syncopate";
+  color: #F3D5D5;
+  text-shadow: 2px solid rgba(73, 7, 7, 0.33);
+  width: 321px;
+  text-align: left;
+  padding-bottom: 15px;
+}
+.ContactMe div hr {
+  width: 259px;
+  height: 0px;
+  border: 5px solid #000000;
+}
+.ContactMe div p {
+  padding-top: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Roboto";
+  width: 259px;
+  color: #E8D6D6;
+}
+.ContactMe .button {
+  background: #F4E2E2;
+  border-radius: 27px;
+  width: 194px;
+  height: 54px;
+  border: 0;
+  position: absolute;
+  top: 2542px;
+  left: 89px;
+}
+.ContactMe .text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 22px;
+  font-family: "Roboto";
+  color: #FF0000;
+}
+.ContactMe .w {
+  position: absolute;
+  top: 2600px;
+  left: -10px;
+}
+.ContactMe .b {
+  position: absolute;
+  top: 2562px;
+  left: 12px;
+}
+.ContactMe .i {
+  position: absolute;
+  top: 2600px;
+  left: 104px;
 }
 
 @media (min-width: 992px) {
