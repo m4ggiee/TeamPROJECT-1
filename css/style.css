@@ -349,6 +349,39 @@ table {
     left: 215px;
   }
 }
+@media (min-width: 992px) {
+  .CompanyDetails {
+    height: 179.83px;
+    background-color: #020202;
+    width: 1439px;
+  }
+  .CompanyDetails h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    font-family: "Syncopate";
+    color: #FF0000;
+    padding-top: 84px;
+    padding-left: 82px;
+  }
+  .CompanyDetails p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: "Roboto";
+    color: #D8D3D3;
+  }
+  .CompanyDetails div hr {
+    width: 111.59px;
+    height: 0px;
+    border: 2px solid #FF2929;
+    transform: rotate(90deg);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -692,6 +725,11 @@ table {
   left: 104px;
 }
 
+@media (max-width: 600px) {
+  .CompanyDetails {
+    display: none;
+  }
+}
 @media (min-width: 992px) {
   .MyTask {
     height: 945.13px;
@@ -979,5 +1017,38 @@ table {
   .ContactMe .w {
     top: 349px;
     left: 215px;
+  }
+}
+@media (min-width: 992px) {
+  .CompanyDetails {
+    height: 179.83px;
+    background-color: #020202;
+    width: 1439px;
+  }
+  .CompanyDetails h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    font-family: "Syncopate";
+    color: #FF0000;
+    padding-top: 84px;
+    padding-left: 82px;
+  }
+  .CompanyDetails p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: "Roboto";
+    color: #D8D3D3;
+  }
+  .CompanyDetails div hr {
+    width: 111.59px;
+    height: 0px;
+    border: 2px solid #FF2929;
+    transform: rotate(90deg);
   }
 }

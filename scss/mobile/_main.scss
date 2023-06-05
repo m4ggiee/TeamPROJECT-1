@@ -267,7 +267,7 @@
         }
     }
 
-    @media (max-width:600px) {
+    @media (max-width:600px){
         .card3{
             display: none;
         }
@@ -342,4 +342,10 @@
 
 }
 
+@media (max-width:600px){
+    .CompanyDetails{
+        display: none;
+    }
+    
+}
 
