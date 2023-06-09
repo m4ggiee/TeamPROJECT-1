@@ -1,364 +1,386 @@
-@media(min-width:992px){
-    .MyTask{
-        height: 945.13px;
-        background-image: url(/img/Rectangle\ 35.png);
-        background-repeat: no-repeat;
-     
-        .h1{
-           text-align: left;
-           padding-left: 76px;
-           color: #E4CFCF;
-           text-shadow: 2px 1px 0px rgba(226,13,13,0.5);
-           font-weight: 700;
-           font-size: 57px;
-           line-height: 59px; 
-           font-family: 'Syncopate'; 
-           width: 653px;
-           height: 60px;
-        }
-        .one{
-                   
-            position: absolute; 
-            top: 86px;
-            left: 128px; 
-
-
-            .heart{
-                position: absolute;
-                top: -48px;
-                left: 479px;
-            }
-
-            h1{
-                font-size: 210px;
-                line-height: 244px;
-                top: 100px;
-                left: 20px;
-            }
-
-            .one-p{
-                p{
-                    font-size: 18px;
-                    top: 138px;
-                    left: 133px;
-                }
-            }
-
-           
-        }
-    
-        .two{
-                
-            position: absolute; 
-            top: 65px;
-            left: 245px;  
-
-            .chating{
-                position: absolute;
-                top: 194px;
-                left: 581px;
-            }
-
-            h1{
-                font-size: 200px;
-                line-height: 241px;
-                top: 427px;   
-                left: 36px;            
-            }
-            
-            .two-p{
-                p{
-                    line-height: 19px;
-                    font-size: 16px;
-                    top: 143px;
-                    right: 94px;
-                }
-
-                h3{
-                    font-size: 18px;
-                    line-height: 21px;
-                    top: 89px;
-                    right: 9px;                  
-                }
-            }
-            
-            
-        }
-
-        .three{
-              
-            position: absolute; 
-            top: 68px;
-            left: 342px; 
-
-            .notebook{
-                position: absolute;
-                top: 442px;
-                left: 640px;
-            }
-
-            h1{
-                font-size: 200px;
-                line-height: 241px;
-                top: 630px;
-                left: 63px;
-                          
-            }
-            
-            .three-p{
-                p{
-                    font-size: 16px;
-                    line-height: 19px;
-                    top: 178px;
-                    right: 65px;
-                }
-                h3{
-                    font-size: 18px;
-                    line-height: 21px;
-                    top: 323px;
-                    left: 220px;                 
-                }
-            }
-            
-            
-        }
-
-        @media (min-width:992px) {
-            .elipse1{
-                display: none;
-            }
-    
-            .elipse2{
-                display: none;
-            }      
-    
-    
-            .elipse3{
-                display: none;
-            }
-            
-        }
-    }
-    
-    .Reviews{
-        height: 1766px;
-        background-image: url(/img/backgraund2.png);
-        background-repeat: no-repeat;
-
-        h1{
-            text-align: left;
-            padding-left: 76px;
-            color: #E4CFCF;
-            text-shadow: 2px 1px 0px rgba(226,13,13,0.5);
-            font-weight: 700;
-            font-size: 57px;
-            line-height: 59px; 
-            font-family: 'Syncopate'; 
-            width: 653px; 
-            height: 60px;
-        }
-
-        .card1{
-            top: -2px;
-            left: 919px;
-
-            div{
-                img{
-                      top: 279px;
-                      left: -120px;
-                }
-
-                p{
-                    width: 206.28px;
-                    height: 63.23px;                  
-                    font-size: 16px;
-                    line-height: 19px;
-                    top: -125px;
-                    left: -50px;
-                }
-                h3{
-                    top: -140px;
-                    left: 1px;
-                }
-                hr{
-                    width: 205.28px;
-                    height: 0px;               
-                    top: -135px;
-                    left: -58px;   
-                }
-            }
-        }
-
-        .card2{
-            top: -550px;
-            left: 163px;
-
-            div{
-                img{
-                    top: 285px;
-                    left: 147px;
-                }
-                h3{
-                    top: -135px;
-                    left: 250px;
-                }
-                hr{
-                    width: 205.28px;
-                    height: 0px;                 
-                    top: -130px;
-                    left: 206px; 
-                }
-                p{
-                    width: 199.27px;
-                    height: 56.8px;                  
-                    font-size: 16px;
-                    line-height: 19px;
-                    top: -120px; 
-                    left: 225px;                  
-                }
-            }
-        }
-
-        .card3{
-            position: absolute;
-            top: 1280px;
-            left: 520px;
-
-            div{
-                img{
-                    position: absolute;
-                    top: 434px;
-                    left: 30px;
-                }
-
-                h3{
-                    position: relative;
-                    z-index: 2;
-                    @include textStyle(700, 18px, 21px);
-                    font-family: 'Roboto';
-                    color: #FFFFFF;
-                    top: -80px;
-                    left: 155px;
-
-                }
-                hr{
-                    position: relative;
-                    z-index: 2;
-                    width: 205.28px;
-                    height: 0px;
-                    border: 2px solid #FFFFFF;
-                    top: -70px;
-                    left: 105px;                  
-                }
-                p{
-                    position: relative;
-                    z-index: 2;
-                    @include textStyle(400, 16px, 19px);
-                    font-family: 'Roboto';
-                    color: #FFFFFF;
-                    top: -60px;
-                    left: 145px;     
-                }
-            }
-        }
-    
-    }
-
-    .ContactMe{
-        position: relative;
-        top: -584px;
-        left: 150px;
-          
-        background-image: url(/img/Group\ 2.png);
-        background-repeat: no-repeat;
-
-       div{
-             padding-top: 140px;
-             padding-left: 130px;
-           h1{
-               @include textStyle(700, 40px, 42px);
-               font-family: 'Syncopate';
-               width: 581.81px;
-               text-shadow: 2px solid rgba(73, 7, 7, 0.33);
-               padding-bottom: 0px;
-
-            } 
-            
-            hr{
-                width: 558.78px;
-                border: 4px solid #000000;
-
-            }
-
-            p{
-                @include textStyle(400, 15px, 18px);
-                font-family: 'Roboto';
-                width:445px;
-            }
-        
+@media (min-width: 992px) {
+    .MyTask {
+       height: 945.13px;
+       background-image: url(/img/Rectangle\ 35.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+ 
+       .h1 {
+          text-align: left;
+          padding-left: 76px;
+          color: #e4cfcf;
+          text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
+          font-weight: 700;
+          font-size: 57px;
+          line-height: 59px;
+          font-family: "Syncopate";
+          width: 653px;
+          height: 60px;
        }
-
-       .button{
-         top: 210px;
-         left:791px;
-         background: #F4E2E2;
-         box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.25);
-         border-radius: 27px;
-         width: 196.27px;
-         height: 63.64px;              
+       .one {
+          position: absolute;
+          top: 80px;
+          left: 135px;
+ 
+          .heart {
+             position: absolute;
+             top: -48px;
+             left: 479px;
+          }
+ 
+          h1 {
+             font-size: 210px;
+             line-height: 244px;
+             top: 100px;
+             left: 20px;
+          }
+ 
+          .one-p {
+             p {
+                font-size: 18px;
+                top: 138px;
+                left: 133px;
+             }
+          }
        }
-       .text{
+ 
+       .two {
+          position: absolute;
+          top: 65px;
+          left: 245px;
+ 
+          .chating {
+             position: absolute;
+             top: 194px;
+             left: 581px;
+          }
+ 
+          h1 {
+             font-size: 200px;
+             line-height: 241px;
+             top: 427px;
+             left: 36px;
+          }
+ 
+          .two-p {
+             p {
+                line-height: 19px;
+                font-size: 16px;
+                top: 143px;
+                right: 94px;
+             }
+ 
+             h3 {
+                font-size: 18px;
+                line-height: 21px;
+                top: 89px;
+                right: 9px;
+             }
+          }
+       }
+ 
+       .three {
+          position: absolute;
+          top: 68px;
+          left: 342px;
+ 
+          .notebook {
+             position: absolute;
+             top: 442px;
+             left: 640px;
+          }
+ 
+          h1 {
+             font-size: 200px;
+             line-height: 241px;
+             top: 630px;
+             left: 63px;
+          }
+ 
+          .three-p {
+             p {
+                font-size: 16px;
+                line-height: 19px;
+                top: 178px;
+                right: 65px;
+             }
+             h3 {
+                font-size: 18px;
+                line-height: 21px;
+                top: 323px;
+                left: 220px;
+             }
+          }
+       }
+ 
+       @media (min-width: 992px) {
+          .elipse1 {
+             display: none;
+          }
+ 
+          .elipse2 {
+             display: none;
+          }
+ 
+          .elipse3 {
+             display: none;
+          }
+       }
+    }
+ 
+    .Reviews {
+       height: 1766px;
+       background-image: url(/img/backgraund2.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+ 
+       h1 {
+          text-align: left;
+          padding-left: 76px;
+          color: #e4cfcf;
+          text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
+          font-weight: 700;
+          font-size: 57px;
+          line-height: 59px;
+          font-family: "Syncopate";
+          width: 653px;
+          height: 60px;
+       }
+ 
+       .card1 {
+          width: 400px;
+          top: -2px;
+          left: 919px;
+ 
+          div {
+             img {
+                top: 279px;
+                left: -120px;
+             }
+ 
+             p {
+                width: 206.28px;
+                height: 63.23px;
+                font-size: 16px;
+                line-height: 19px;
+                top: -125px;
+                left: -50px;
+             }
+             h3 {
+                top: -140px;
+                left: 1px;
+             }
+             hr {
+                width: 205.28px;
+                height: 0px;
+                top: -135px;
+                left: -58px;
+             }
+          }
+       }
+ 
+       .card2 {
+          top: -550px;
+          left: 163px;
+          width: 400px;
+          div {
+             img {
+                top: 285px;
+                left: 147px;
+             }
+             h3 {
+                top: -135px;
+                left: 250px;
+             }
+             hr {
+                width: 205.28px;
+                height: 0px;
+                top: -130px;
+                left: 206px;
+             }
+             p {
+                width: 199.27px;
+                height: 56.8px;
+                font-size: 16px;
+                line-height: 19px;
+                top: -120px;
+                left: 225px;
+             }
+          }
+       }
+ 
+       .card3 {
+          position: absolute;
+          top: 1280px;
+          left: 520px;
+          width: 400px;
+          div {
+             img {
+                position: absolute;
+                top: 434px;
+                left: 30px;
+             }
+ 
+             h3 {
+                position: relative;
+                z-index: 2;
+                @include textStyle(700, 18px, 21px);
+                font-family: "Roboto";
+                color: #ffffff;
+                top: -80px;
+                left: 155px;
+             }
+             hr {
+                position: relative;
+                z-index: 2;
+                width: 205.28px;
+                height: 0px;
+                border: 2px solid #ffffff;
+                top: -70px;
+                left: 105px;
+             }
+             p {
+                position: relative;
+                z-index: 2;
+                @include textStyle(400, 16px, 19px);
+                font-family: "Roboto";
+                color: #ffffff;
+                top: -60px;
+                left: 145px;
+             }
+          }
+       }
+    }
+ 
+    .ContactMe {
+       position: absolute;
+       top: 2200px;
+       left: 150px;
+       height: 505px;
+       width: 1181.54px;
+ 
+       background-image: url(/img/Group\ 2.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+ 
+       div {
+          padding-top: 140px;
+          padding-left: 130px;
+          h1 {
+             @include textStyle(700, 40px, 42px);
+             font-family: "Syncopate";
+             width: 581.81px;
+             text-shadow: 2px solid rgba(73, 7, 7, 0.33);
+             padding-bottom: 0px;
+          }
+ 
+          hr {
+             width: 558.78px;
+             border: 4px solid #000000;
+          }
+ 
+          p {
+             @include textStyle(400, 15px, 18px);
+             font-family: "Roboto";
+             width: 445px;
+          }
+       }
+ 
+       .button {
+          top: 210px;
+          left: 791px;
+          background: #f4e2e2;
+          box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.25);
+          border-radius: 27px;
+          width: 196.27px;
+          height: 63.64px;
+       }
+       .text {
           @include textStyle(900, 19px, 22px);
-          font-family: 'Roboto';
-
+          font-family: "Roboto";
        }
-       .i{
+       .i {
           top: 348px;
           left: 100px;
        }
-       .b{
-         top: 310px;
-         left: 124px;
+       .b {
+          top: 310px;
+          left: 124px;
        }
-       .w{
-         top: 349px;
-         left: 215px;
+       .w {
+          top: 349px;
+          left: 215px;
        }
-    
-
     }
-
-    .CompanyDetails{
-        height: 179.83px;
-        background-color: #020202;
-        width: 1439px;
-        h3{
-            @include textStyle(700, 15px, 16px);
-            font-family: 'Syncopate';
-            color: #FF0000;
-            padding-top: 84px;
-            padding-left: 82px;
-        }
-
-        p{
-            @include textStyle(700, 15px, 18px);
-            font-family: 'Roboto';
-            color: #D8D3D3;
-        }
-
-        div{
-            hr{
-                width: 111.59px;
-                height: 0px;
-                border: 2px solid #FF2929;
-                transform: rotate(90deg);
-                  
-                // position: absolute;
-                // top: 34px;                    
-
-            }
-           
-        }
+ 
+    .CompanyDetails {
+       height: 179.83px;
+       background-color: #020202;
+      
+       background-size: cover;
+       h3 {
+          @include textStyle(700, 15px, 16px);
+          font-family: "Syncopate";
+          color: #ff0000;
+          padding-top: 84px;
+          padding-left: 82px;
+       }
+       
+ 
+       p {
+          @include textStyle(700, 15px, 18px);
+          font-family: "Roboto";
+          color: #d8d3d3;
+       }
+ 
+       div {
+          position: absolute;
+          top: 2700px;
+          left: 539px;
+          hr {
+             width: 111.59px;
+             height: 0px;
+             border: 2px solid #ff2929;
+             transform: rotate(90deg);
+ 
+             // position: absolute;
+             // top: 34px;
+          }
+       }
+ 
+       .DesignServices{
+          width: 355.27px;
+          position: relative;
+          top: -20px;
+          // left: 83px;
+       }
+ 
+       .MainPage{
+          position: absolute;
+          top: 95px;
+          left: 83px;
+       }
+ 
+       .TermsOfService{
+          position: absolute;
+          top: 124px;
+          left: 83px;
+       }
+ 
+       .E-mail{
+          width: 251.35px;
+          position: absolute;
+          top: 130px;
+          left: 309px;
+ 
+       }
+ 
+       .phone{
+          width: 149.21px;
+          position: absolute;
+          top: 127px;
+          left: 693px;
+       }
     }
-}
-
+ }
+ 

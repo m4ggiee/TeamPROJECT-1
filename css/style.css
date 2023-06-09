@@ -65,11 +65,12 @@ table {
     height: 945.13px;
     background-image: url(/img/Rectangle\ 35.png);
     background-repeat: no-repeat;
+    background-size: cover;
   }
   .MyTask .h1 {
     text-align: left;
     padding-left: 76px;
-    color: #E4CFCF;
+    color: #e4cfcf;
     text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
     font-weight: 700;
     font-size: 57px;
@@ -80,8 +81,8 @@ table {
   }
   .MyTask .one {
     position: absolute;
-    top: 86px;
-    left: 128px;
+    top: 80px;
+    left: 135px;
   }
   .MyTask .one .heart {
     position: absolute;
@@ -172,11 +173,12 @@ table {
     height: 1766px;
     background-image: url(/img/backgraund2.png);
     background-repeat: no-repeat;
+    background-size: cover;
   }
   .Reviews h1 {
     text-align: left;
     padding-left: 76px;
-    color: #E4CFCF;
+    color: #e4cfcf;
     text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
     font-weight: 700;
     font-size: 57px;
@@ -186,6 +188,7 @@ table {
     height: 60px;
   }
   .Reviews .card1 {
+    width: 400px;
     top: -2px;
     left: 919px;
   }
@@ -214,6 +217,7 @@ table {
   .Reviews .card2 {
     top: -550px;
     left: 163px;
+    width: 400px;
   }
   .Reviews .card2 div img {
     top: 285px;
@@ -241,6 +245,7 @@ table {
     position: absolute;
     top: 1280px;
     left: 520px;
+    width: 400px;
   }
   .Reviews .card3 div img {
     position: absolute;
@@ -256,7 +261,7 @@ table {
     font-size: 18px;
     line-height: 21px;
     font-family: "Roboto";
-    color: #FFFFFF;
+    color: #ffffff;
     top: -80px;
     left: 155px;
   }
@@ -265,7 +270,7 @@ table {
     z-index: 2;
     width: 205.28px;
     height: 0px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #ffffff;
     top: -70px;
     left: 105px;
   }
@@ -278,18 +283,21 @@ table {
     font-size: 16px;
     line-height: 19px;
     font-family: "Roboto";
-    color: #FFFFFF;
+    color: #ffffff;
     top: -60px;
     left: 145px;
   }
 }
 @media (min-width: 992px) {
   .ContactMe {
-    position: relative;
-    top: -584px;
+    position: absolute;
+    top: 2200px;
     left: 150px;
+    height: 505px;
+    width: 1181.54px;
     background-image: url(/img/Group\ 2.png);
     background-repeat: no-repeat;
+    background-size: cover;
   }
   .ContactMe div {
     padding-top: 140px;
@@ -322,7 +330,7 @@ table {
   .ContactMe .button {
     top: 210px;
     left: 791px;
-    background: #F4E2E2;
+    background: #f4e2e2;
     box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.25);
     border-radius: 27px;
     width: 196.27px;
@@ -353,7 +361,7 @@ table {
   .CompanyDetails {
     height: 179.83px;
     background-color: #020202;
-    width: 1439px;
+    background-size: cover;
   }
   .CompanyDetails h3 {
     font-family: "Inter";
@@ -362,7 +370,7 @@ table {
     font-size: 15px;
     line-height: 16px;
     font-family: "Syncopate";
-    color: #FF0000;
+    color: #ff0000;
     padding-top: 84px;
     padding-left: 82px;
   }
@@ -373,13 +381,45 @@ table {
     font-size: 15px;
     line-height: 18px;
     font-family: "Roboto";
-    color: #D8D3D3;
+    color: #d8d3d3;
+  }
+  .CompanyDetails div {
+    position: absolute;
+    top: 2700px;
+    left: 539px;
   }
   .CompanyDetails div hr {
     width: 111.59px;
     height: 0px;
-    border: 2px solid #FF2929;
+    border: 2px solid #ff2929;
     transform: rotate(90deg);
+  }
+  .CompanyDetails .DesignServices {
+    width: 355.27px;
+    position: relative;
+    top: -20px;
+  }
+  .CompanyDetails .MainPage {
+    position: absolute;
+    top: 95px;
+    left: 83px;
+  }
+  .CompanyDetails .TermsOfService {
+    position: absolute;
+    top: 124px;
+    left: 83px;
+  }
+  .CompanyDetails .E-mail {
+    width: 251.35px;
+    position: absolute;
+    top: 130px;
+    left: 309px;
+  }
+  .CompanyDetails .phone {
+    width: 149.21px;
+    position: absolute;
+    top: 127px;
+    left: 693px;
   }
 }
 * {
@@ -735,11 +775,12 @@ table {
     height: 945.13px;
     background-image: url(/img/Rectangle\ 35.png);
     background-repeat: no-repeat;
+    background-size: cover;
   }
   .MyTask .h1 {
     text-align: left;
     padding-left: 76px;
-    color: #E4CFCF;
+    color: #e4cfcf;
     text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
     font-weight: 700;
     font-size: 57px;
@@ -750,8 +791,8 @@ table {
   }
   .MyTask .one {
     position: absolute;
-    top: 86px;
-    left: 128px;
+    top: 80px;
+    left: 135px;
   }
   .MyTask .one .heart {
     position: absolute;
@@ -842,11 +883,12 @@ table {
     height: 1766px;
     background-image: url(/img/backgraund2.png);
     background-repeat: no-repeat;
+    background-size: cover;
   }
   .Reviews h1 {
     text-align: left;
     padding-left: 76px;
-    color: #E4CFCF;
+    color: #e4cfcf;
     text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
     font-weight: 700;
     font-size: 57px;
@@ -856,6 +898,7 @@ table {
     height: 60px;
   }
   .Reviews .card1 {
+    width: 400px;
     top: -2px;
     left: 919px;
   }
@@ -884,6 +927,7 @@ table {
   .Reviews .card2 {
     top: -550px;
     left: 163px;
+    width: 400px;
   }
   .Reviews .card2 div img {
     top: 285px;
@@ -911,6 +955,7 @@ table {
     position: absolute;
     top: 1280px;
     left: 520px;
+    width: 400px;
   }
   .Reviews .card3 div img {
     position: absolute;
@@ -926,7 +971,7 @@ table {
     font-size: 18px;
     line-height: 21px;
     font-family: "Roboto";
-    color: #FFFFFF;
+    color: #ffffff;
     top: -80px;
     left: 155px;
   }
@@ -935,7 +980,7 @@ table {
     z-index: 2;
     width: 205.28px;
     height: 0px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #ffffff;
     top: -70px;
     left: 105px;
   }
@@ -948,18 +993,21 @@ table {
     font-size: 16px;
     line-height: 19px;
     font-family: "Roboto";
-    color: #FFFFFF;
+    color: #ffffff;
     top: -60px;
     left: 145px;
   }
 }
 @media (min-width: 992px) {
   .ContactMe {
-    position: relative;
-    top: -584px;
+    position: absolute;
+    top: 2200px;
     left: 150px;
+    height: 505px;
+    width: 1181.54px;
     background-image: url(/img/Group\ 2.png);
     background-repeat: no-repeat;
+    background-size: cover;
   }
   .ContactMe div {
     padding-top: 140px;
@@ -992,7 +1040,7 @@ table {
   .ContactMe .button {
     top: 210px;
     left: 791px;
-    background: #F4E2E2;
+    background: #f4e2e2;
     box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.25);
     border-radius: 27px;
     width: 196.27px;
@@ -1023,7 +1071,7 @@ table {
   .CompanyDetails {
     height: 179.83px;
     background-color: #020202;
-    width: 1439px;
+    background-size: cover;
   }
   .CompanyDetails h3 {
     font-family: "Inter";
@@ -1032,7 +1080,7 @@ table {
     font-size: 15px;
     line-height: 16px;
     font-family: "Syncopate";
-    color: #FF0000;
+    color: #ff0000;
     padding-top: 84px;
     padding-left: 82px;
   }
@@ -1043,12 +1091,44 @@ table {
     font-size: 15px;
     line-height: 18px;
     font-family: "Roboto";
-    color: #D8D3D3;
+    color: #d8d3d3;
+  }
+  .CompanyDetails div {
+    position: absolute;
+    top: 2700px;
+    left: 539px;
   }
   .CompanyDetails div hr {
     width: 111.59px;
     height: 0px;
-    border: 2px solid #FF2929;
+    border: 2px solid #ff2929;
     transform: rotate(90deg);
+  }
+  .CompanyDetails .DesignServices {
+    width: 355.27px;
+    position: relative;
+    top: -20px;
+  }
+  .CompanyDetails .MainPage {
+    position: absolute;
+    top: 95px;
+    left: 83px;
+  }
+  .CompanyDetails .TermsOfService {
+    position: absolute;
+    top: 124px;
+    left: 83px;
+  }
+  .CompanyDetails .E-mail {
+    width: 251.35px;
+    position: absolute;
+    top: 130px;
+    left: 309px;
+  }
+  .CompanyDetails .phone {
+    width: 149.21px;
+    position: absolute;
+    top: 127px;
+    left: 693px;
   }
 }
